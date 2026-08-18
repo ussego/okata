@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "ussego.okata",
+  "name": "Okata",
+  "version": "1.0.0",
+  "author": "ussego",
+  "license": "MIT",
+  "description": "Summoned overlay that transforms text between 21 cases and copies the result.",
+  "kinds": ["overlay"],
+  "keepLoaded": true,
+  "entryPoints": { "overlay": "Overlay.qml" }
+}
