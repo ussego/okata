@@ -10,6 +10,12 @@ Transform text between 21 cases and copy the result — a change-case overlay fo
 omarchy plugin add https://github.com/ussego/okata.git --enable
 ```
 
+## Removal
+
+```sh
+omarchy plugin remove ussego.okata
+```
+
 ## Usage
 
 Summon the overlay and type — every case row updates live as you type:
@@ -43,3 +49,7 @@ Add to `~/.config/hypr/bindings.lua`:
 hl.unbind("SUPER + CTRL + U")
 o.bind("SUPER + CTRL + U", "Transform case", "omarchy-shell shell summon ussego.okata")
 ```
+
+## Dependencies
+
+Uses `wl-copy` from `wl-clipboard`, which ships with Omarchy.
