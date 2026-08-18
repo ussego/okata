@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "author": "ussego",
   "license": "MIT",
-  "description": "Summoned overlay that transforms text between 21 cases and copies the result.",
+  "description": "Omarchy overlay that transforms text between 21 cases and copies the result to the clipboard.",
   "kinds": ["overlay"],
   "keepLoaded": true,
   "entryPoints": { "overlay": "Overlay.qml" }
