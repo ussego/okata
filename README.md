@@ -47,7 +47,7 @@ Add to `~/.config/hypr/bindings.lua`:
 
 ```lua
 hl.unbind("SUPER + CTRL + U")
-o.bind("SUPER + CTRL + U", "Transform case", "omarchy-shell shell summon ussego.okata")
+o.bind("SUPER + CTRL + U", "Transform case", "omarchy-shell shell toggle ussego.okata")
 ```
 
 ## Dependencies
