@@ -2,18 +2,12 @@
 
 Transform text between 21 cases and copy the result — a change-case overlay for the Omarchy shell.
 
-![Okata preview](preview.png)
+![okata overlay](preview.png)
 
 ## Install
 
 ```sh
 omarchy plugin add https://github.com/ussego/okata.git --enable
-```
-
-Then restart the shell so it picks up the plugin:
-
-```sh
-omarchy restart shell
 ```
 
 ## Usage
@@ -46,7 +40,6 @@ Payload: `{"text": "..."}` pre-fills the input.
 Add to `~/.config/hypr/bindings.lua`:
 
 ```lua
-o.bind({ "SUPER", "SHIFT" }, "c", function()
-  omarchy_shell("shell summon ussego.okata")
-end)
+hl.unbind("SUPER + CTRL + U")
+o.bind("SUPER + CTRL + U", "Transform case", "omarchy-shell shell summon ussego.okata")
 ```
